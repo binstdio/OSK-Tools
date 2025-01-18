@@ -2,12 +2,9 @@ package fx;
 
 import java.io.IOException;
 
-import base.Info;
-import base.L;
 import javafx.animation.FadeTransition;
 import javafx.animation.Interpolator;
 import javafx.animation.ScaleTransition;
-import javafx.geometry.Insets;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Group;
 import javafx.scene.Scene;

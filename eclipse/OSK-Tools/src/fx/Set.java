@@ -15,7 +15,6 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 
 public class Set {
-	private static final boolean True = false;
 	public static Group giant=new Group();
 	public static Scene sSet=new Scene(giant,800,600);
 	public static VBox root=new VBox();
@@ -37,7 +36,7 @@ public class Set {
 		wTitle.setTextFill(Color.web(Config._10));
 		wTitle.setFont(Font.font(28));
 		
-		Label wNote=new Label("在下列用户中，即使不使用osk.exe -kb也可以直接使用屏幕键盘 (每个用户名占一行)");
+		Label wNote=new Label("在下列用户中，即使不使用osk.exe --kb也可以直接使用屏幕键盘 (每个用户名占一行)");
 		wNote.setTextFill(Color.web(Config._10));
 		wNote.setFont(Font.font(14));
 		
