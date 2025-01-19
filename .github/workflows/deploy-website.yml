@@ -2,7 +2,8 @@ name: 构建并部署网站
 
 on:
   push:
-    branches: [web]
+    branches: 
+        - web
   workflow_dispatch:
 
 permissions:
