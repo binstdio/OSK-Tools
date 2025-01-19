@@ -1,2 +1,2 @@
-# OSK-Tools
-一个在Windows锁屏下可以使用的工具箱
+# OSK-Tools Web
+OSK Tools 的网页分支。网页由 [VitePress](https://vitepress.dev) 强力驱动。
