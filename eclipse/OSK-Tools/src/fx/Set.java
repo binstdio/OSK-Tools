@@ -63,7 +63,7 @@ public class Set {
 		Label aboutTitle=new Label("关于");
 		aboutTitle.setFont(Font.font(36));
 		aboutTitle.setTextFill(Color.web(Config._10));
-		Label about=new Label(Config._11);
+		Label about=new Label(Config._11+"\n主题包作者："+Config._2+",主题包简介："+Config._3);
 		about.setFont(Font.font(16));
 		about.setTextFill(Color.web(Config._10));
 		about.setMaxWidth(780);

@@ -7,7 +7,10 @@ import fx.Run;
 import fx.Set;
 import javafx.animation.FadeTransition;
 import javafx.animation.Interpolator;
+import javafx.animation.KeyFrame;
+import javafx.animation.KeyValue;
 import javafx.animation.ScaleTransition;
+import javafx.animation.Timeline;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Group;
 import javafx.scene.effect.GaussianBlur;
@@ -80,8 +83,15 @@ public class SMaker {
 		home.addEventHandler(MouseEvent.MOUSE_PRESSED, event -> {
 			shrinkTransitionHome.playFromStart();
 			rootOut.play();
+			Timeline timeline = new Timeline(
+			        new KeyFrame(Duration.seconds(0.1),
+			        new KeyValue(gaussianBlur.radiusProperty(), 0))
+			 );
+			timeline.play();
 			shrinkTransitionHome.setOnFinished(eventFinished -> {
-		        // 动画完成后切换场景
+		        
+				
+				// 动画完成后切换场景
 		        Man.setSence(Home.sHome);
 		        root.setStyle("-fx-opacity: 1.0;");
 		    });

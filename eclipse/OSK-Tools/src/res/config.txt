@@ -1,6 +1,6 @@
 Sunset
 upbingun
-OSK Tools V1.0(Sunset)的默认主题。拍摄者:upbingun
+OSK Tools Rel. 2501 (Sunset)的默认主题。拍摄者:upbingun
 #FFFFFF
 #FFFFFF
 #FFFFFF
